@@ -38,7 +38,6 @@ namespace WpfTreeView
                 // Create a new item for it
                 var item = new TreeViewItem()
                 {
-
                     // Set the header
                     Header = drive,
                     // And the full path
