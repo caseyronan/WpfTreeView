@@ -27,7 +27,7 @@ namespace WpfTreeView
             // Get the name of the file/folder
             var name = MainWindow.GetFileFolderName(path);
 
-            // By default, we presume an file image
+            // By default, we presume a file image
             var image = "Images/file.jpg";
 
             // If the name is blank, we presume it's a drive as we cannot have a blank file or folder name (acceptable for a tutorial, questionable for production)
@@ -40,6 +40,7 @@ namespace WpfTreeView
             
         }
 
+        // Need this to implement IValueConverter
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();
